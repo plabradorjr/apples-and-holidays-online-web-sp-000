@@ -89,7 +89,6 @@ def all_holidays_with_bbq(holiday_hash)
     val1.collect do |key2, val2|
         if val2.include?("BBQ")
            key2
-           binding.pry
         end
     end
   end
