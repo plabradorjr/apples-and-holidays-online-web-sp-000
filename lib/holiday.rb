@@ -90,9 +90,9 @@ def all_holidays_with_bbq(holiday_hash)
         days_with_bbq = []
         if val2.include?("BBQ")
            days_with_bbq << key2
-           binding.pry 
         end
         days_with_bbq
+        binding.pry 
     end
   end
 end
