@@ -87,11 +87,9 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   holiday_hash.each do |key1, val1|
     val1.each do |key2, val2|
-      binding.pry
-        if "BBC" == "x"
-
-
-      end
+        if val2.include?("BBQ")
+           key2
+        end
     end
   end
 end
